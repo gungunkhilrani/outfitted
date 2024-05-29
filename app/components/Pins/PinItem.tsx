@@ -6,8 +6,8 @@ import { useRouter } from 'next/navigation'
 function PinItem({pin}) {
   const router=useRouter();
     const user={
-        name:pin.userName,
-        image:pin.userImage,
+        name:pin?.userName,
+        image:pin?.userImage,
 
     }
   return (
@@ -31,7 +31,7 @@ function PinItem({pin}) {
         />
        </div>
         <h2 className='font-bold 
-        text-[18px] mb-1 mt-2 line-clamp-2'>{pin.title}</h2>
+        text-[20px] mb-1 mt-2 line-clamp-2'>{pin.title}</h2>
         <p className='text-[14px] mb-2 line-clamp-3'>{pin.desc}</p>
         <UserTag user={user} />
     </div>

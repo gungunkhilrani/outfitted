@@ -14,13 +14,37 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Update styles for dark mode */
+body.dark-mode a {
+  color: #fff;
+}
+
+body.dark-mode a:hover {
+  color: #ccc;
+}
+
+/* Update styles for dark mode */
+body.dark-mode.header {
+  background-color: #444;
+  border-bottom: 1px solid #555;
+}
+
+body.dark-mode.header a {
+  color: #fff;
+}
+
+body.dark-mode.header a:hover {
+  color: #ccc;
 }
 
 @layer utilities {

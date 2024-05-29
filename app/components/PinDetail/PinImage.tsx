@@ -7,8 +7,8 @@ function PinImage({pinDetail}) {
     <div>
       <Image src={pinDetail.image}
       alt={pinDetail.title}
-      width={1000}
-      height={1000}
+      width={500}
+      height={500}
     
       className='rounded-2xl'
       />

@@ -20,7 +20,7 @@ function UserInfo({userInfo}) {
         className='rounded-full'/>
 
         <h2 className='text-[30px]
-        font-semibold'>{userInfo.name}</h2>
+        font-semibold'>{userInfo.userName}</h2>
         <h2 className='text-gray-400'>{userInfo.email}</h2>
         <div className='flex gap-4'>
         <button className='bg-gray-200
