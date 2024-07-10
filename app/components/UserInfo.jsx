@@ -9,7 +9,7 @@ function UserInfo({userInfo}) {
     const {data:session}=useSession()
     const onLogoutClick=()=>{
       signOut();
-      router.push("/")
+      router.push('/')
     }
   return (
     <div className='flex flex-col items-center'>
