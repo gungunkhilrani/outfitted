@@ -3,6 +3,5 @@ just not imagine your pinteresty wadrobe when you can make it reality no need to
 
 
 to run this web application 
-npm i 
-npm run dev 
+npm i , npm run dev 
 and visit https://localhost3000
